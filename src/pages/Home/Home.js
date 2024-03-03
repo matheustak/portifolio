@@ -39,7 +39,7 @@ const Home = () => {
 
        
         <a href="https://github.com/matheustak" target="_blank" rel="noreferrer">
-           <img src={minhaImagem1}  alt="Segua-me no github" />
+           <img  className={styles.git} src={minhaImagem1}  alt="Segua-me no github" />
         </a>
 
 
