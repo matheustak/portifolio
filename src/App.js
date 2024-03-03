@@ -35,7 +35,7 @@ function App() {
         <Navbar />
         <div className='container'>
         <Switch>
-          <Route path="/Home" element={<Home/> } />
+          <Route path="/" element={<Home/> } />
           <Route path="/Sobre" element={<Sobre />} />
           <Route path="/Portifolio" element={<Portifolio />} />
           <Route path="/Contato" element={<Contato />} />
