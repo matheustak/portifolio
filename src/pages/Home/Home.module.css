@@ -132,10 +132,10 @@
     justify-items: center;
    
     justify-content: center;
-   flex-direction: column-reverse;
+   
 }
 
 .grid2{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
 }
