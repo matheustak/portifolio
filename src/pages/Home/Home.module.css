@@ -83,8 +83,8 @@
  
 
 .grid2{
-    height: 300px;
-    width:300px;
+    height:100% ;
+    width:100% ;
 }
 .texto , .redes{
   margin-left: 1.80em;
