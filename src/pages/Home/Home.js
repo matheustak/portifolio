@@ -21,7 +21,7 @@ const Home = () => {
         <p>seja bem-vindo ao meu portifólio website</p>
 
 
-        <div className={styles.sociais}>
+   <div className={styles.sociais}>
       <p>Redes Socias</p>
       <a href="https://github.com/matheustak" target="_blank" rel="noreferrer">
         <img  className={styles.logo} src={minhaImagem1}  alt="Segua-me no github" />
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
        
 
-    <div className={styles.grid2}>
+    <div className={styles.grid3}>
     <img className={styles.image} src={minhaImagem}  alt="Imagem de entrada do Web-Site" />
     </div>
 
