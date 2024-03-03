@@ -38,7 +38,7 @@ const Home = () => {
         </div>
        
 
-    <div className={styles.grid3}>
+    <div className={styles.grid2}>
     <img className={styles.image} src={minhaImagem}  alt="Imagem de entrada do Web-Site" />
     </div>
 
