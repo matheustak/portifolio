@@ -1,7 +1,7 @@
 
 import styles from './Projetos.module.css'; 
 
-import Imagem1 from "../Imagens/diploma1.jpeg";
+import Imagem1 from "../Imagens/diploma1.jpg";
 import Imagem2 from "../Imagens/aguarda.png";
 
 
