@@ -132,7 +132,7 @@
     justify-items: center;
    
     justify-content: center;
-   
+   flex-direction: column-reverse;
 }
 
 .grid2{
