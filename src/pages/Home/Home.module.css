@@ -150,7 +150,7 @@ height: 36px;
 
 @media (max-width: 576px) {
     .home {
-        grid-template-areas: "texto fotologo" "redes fotologo";
+      
         grid-template-columns: 1fr; /* Uma coluna em telas menores */
         margin-top: 5%;
         
