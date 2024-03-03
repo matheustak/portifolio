@@ -10,11 +10,11 @@
     height: 100%;
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 900px);
+    grid-template-columns: repeat(auto-fill, 400px);
     grid-template-rows: auto;
     grid-template-areas: "texto fotologo""redes fotologo";
     
-    gap: 60px;
+    gap: 100px;
    
     align-items: center;
     justify-items: center;
@@ -26,9 +26,7 @@
 }
  
 
-.grid2{
-   background-color: brown;
-}
+
 .texto , .redes{
   margin-left: 1.80em;
     
