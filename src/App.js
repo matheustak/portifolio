@@ -2,8 +2,8 @@
 import styles from './App.css';
 
 
-//import {BrowserRouter , Routes, Route} from "react-router-dom";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter , Routes, Route} from "react-router-dom";
+
 
 //Pages
 import Home from  "./pages/Home/Home.js";
@@ -34,7 +34,7 @@ function App() {
 
         <Navbar />
         <div className='container'>
-        <Routes>
+          <Routes>
           <Route path="/" element={<Home/> } />
           <Route path="/Sobre" element={<Sobre />} />
           <Route path="/Portifolio" element={<Portifolio />} />
