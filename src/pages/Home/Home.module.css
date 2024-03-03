@@ -136,10 +136,7 @@
 }
 
 .grid2{
-    align-items: center;
-    justify-items: center;
-   
-    justify-content: center;
+   display: block;
     height: 450px;
     width: 450px;
 }
