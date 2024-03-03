@@ -21,10 +21,6 @@ const Home = () => {
         <p>seja bem-vindo ao meu portifólio website</p>
 
 
-       
-
-        </div>
-       
         <p>Redes Socias</p>
 
 
@@ -37,6 +33,10 @@ const Home = () => {
 <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2FAlecrimRoc3694.com%2F&amp;ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5AlecrimRoc3694&amp;region=follow_link&amp;screen_name=AlecrimRoc3694" target="_blank" rel="noreferrer"> 
  <img className={styles.twitter} src={minhaImagem2}  alt="Segua-me no twitter"  />
 </a>
+       
+
+        </div>
+       
 
     <div className={styles.grid2}>
     <img className={styles.image} src={minhaImagem}  alt="Imagem de entrada do Web-Site" />
