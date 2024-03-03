@@ -1,62 +1,3 @@
-/*.home{
-    display: flex;
-    
- 
-}
-
-
-
-.logo{
-    
-    display: block;
-    margin-top: 30%;
-}
-
-
-
-
-
-
-.text{
-    margin-left: 10%;
-  
-    margin-top: 20%;
-}
-
-.twitter{
-    margin-left: 4%;
-    height: 35px;
-}*/
-
-/*
-@media (max-width: 576px) {
-    .home{
-        flex-direction: column-reverse;
-    
-     }
-     .logo{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-       }
- 
-
-    .text {
-        display: block;
-        margin-top: 0%;
-        text-align: center;
-        word-break: break-world; 
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .imageContainer img{
-     height: auto;
-     width: 100%;
-    
-    }
-}
-
-*/
 
 
 .image{
@@ -86,8 +27,7 @@
  
 
 .grid2{
-    height:100% ;
-    width:100% ;
+   background-color: brown;
 }
 .texto , .redes{
   margin-left: 1.80em;
