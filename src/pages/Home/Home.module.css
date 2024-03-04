@@ -1,7 +1,7 @@
 .div{
     height: 400px; 
     width: 400px;
-  
+  background-color: black;
 }
 
 
@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
     grid-template-rows: auto;
-    grid-template-areas: "texto fotologo""fotologo redes";
+    grid-template-areas: "texto fotologo""redes fotologo";
     
     gap: 10px;
    
