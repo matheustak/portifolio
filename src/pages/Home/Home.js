@@ -1,7 +1,7 @@
 import styles from "./Home.module.css";
 
 //ImagensDeCapa
-import minhaImagem from "../Imagens/Home_art 1.png" ;
+import minhaImagem from "../Imagens/Homeart.png" ;
 
 //Imagens LogoMarcas
 import minhaImagem1 from "../Imagens/Git.png";
