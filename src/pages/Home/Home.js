@@ -32,7 +32,7 @@ const Home = () => {
     </div>
 
 
-    <div className={styles.sociais}>
+    <div className={styles.redes}>
       <p>Redes Socias</p>
       <a href="https://github.com/matheustak" target="_blank" rel="noreferrer">
         <img  className={styles.logo} src={minhaImagem1}  alt="Segua-me no github" />
