@@ -13,7 +13,7 @@ const Home = () => {
   return (
    
 <div className={styles.home}>
-    <div className={ styles.grid2}>
+    <div className={ styles.texto}>
     <p>
     Olá pessoas,</p>
   <h1>EU SOU UM 
