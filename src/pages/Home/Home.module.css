@@ -1,3 +1,8 @@
+.div{
+    height: 200px; 
+    width: 200px;
+  
+}
 
 
 .image{
@@ -14,10 +19,7 @@
     grid-template-rows: auto;
     grid-template-areas: "texto fotologo""redes fotologo";
     
-    gap: 100px;
-   
-    align-items: center;
-    justify-items: center;
+    gap: 10px;
    
     justify-content: center;
     
@@ -64,35 +66,7 @@
 
 
 
-                            @keyframes tada {
-                                0% {
-                                    transform: scale(1);
-                                }
-                                10%, 20% {
-                                    transform: scale(0.9) rotate(-3deg);
-                                }
-                                30%, 50%, 70%, 90% {
-                                    transform: scale(1.1) rotate(3deg);
-                                }
-                                40%, 60%, 80% {
-                                    transform: scale(1.1) rotate(-3deg);
-                                }
-                                100% {
-                                    transform: scale(1);
-                                }
-                            }
                             
-                            .tada {
-                                animation-name: tada;
-                                animation-duration: 1s;
-                                animation-fill-mode: both;
-                               
-                            }
-
-                          
-
-
-
 @media (max-width: 576px) {
     .home {
         grid-template-areas: "texto fotologo""fotologo  redes";
@@ -100,7 +74,7 @@
         margin-top: 5%;
         
     
-       
+        justify-items: center;
       
         
    
