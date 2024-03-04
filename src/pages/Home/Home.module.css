@@ -24,8 +24,8 @@
  
 
 
-.texto {
-    grid-area: texto;
+.texto, .redes {
+  
   margin-left: 1.80em;
     
 }
