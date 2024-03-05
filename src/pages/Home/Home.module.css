@@ -22,6 +22,10 @@
   
 }
  
+.texto,.redes,.fotologo{
+    height: 300px;
+    width: 300px;
+}
 
 
 .texto, .redes {
