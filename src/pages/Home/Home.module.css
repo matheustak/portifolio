@@ -1,5 +1,3 @@
-
-
 .image{
     height: 100%;
     width: 100%;
@@ -10,36 +8,36 @@
     height: 100%;
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 35em);
     grid-template-rows: auto;
-    grid-template-areas: "texto fotologo""redes fotologo";
+    grid-template-areas: "texto fotologo""redes fotologo" ;
     
-    gap: 20px;
+    gap: 4em;
    
+    justify-items: center;
+         
+    align-items: center;
+
     justify-content: center;
-   
-   
-  
 }
  
 
-
-.texto, .redes {
-  
-  margin-left: 1.80em;
-    
-}
+  .texto{
+    align-items: center;
+    margin-right: auto;
+  }
 
 
-
-.home .redes{
+.redes{
+    align-items: center;
+    margin-right: auto;
     grid-area: redes;
  
 
 }
 .fotologo{
     grid-area: fotologo;
-    margin-right: 20px;
+   
 }
 
 .logo{
@@ -61,25 +59,32 @@
 }
 
 
-                            
+                          
 
-@media (max-width: 576px) {
+@media (max-width: 100em ) {
     .home {
-        grid-template-areas: "texto"  "fotologo" "redes " ;
-        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+        grid-template-areas: "texto" "fotologo" "redes" ;
+       
         margin-top: 5%;
         
-        justify-content: center;
+        grid-template-columns: repeat(auto-fill, 10em , 1fr); /* Uma coluna em telas menores */
         
         justify-items: center;
-        
+         
+        justify-content: center;
    
     }
-    .texto{
-      
+    .texto, .redes{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         word-break: break-word; 
         text-align: center;
     }
 
     
+    
 }
+
+
+
