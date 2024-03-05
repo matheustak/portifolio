@@ -60,22 +60,10 @@
     
 }
 
-
+.container{
+    display: flex;
+    flex-direction: column;
+}
 
                             
-@media (max-width: 576px) {
-    .home {
-        display: flex;
-        flex-direction: column;
-      
-        justify-items: center;
-   
-    }
-    .texto{
-      
-        word-break: break-word; 
-        text-align: center;
-    }
 
-    
-}

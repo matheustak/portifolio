@@ -11,7 +11,7 @@ import WhatsAppFlutuante from  "../../components/WhatsAppFlutuante.js";
 
 const Home = () => {
   return (
-   
+   <div className={styles.container}>
 <div className={styles.home}>
     <div className={ styles.texto}>
     <p>
@@ -53,7 +53,7 @@ const Home = () => {
         <WhatsAppFlutuante />
 </div>
 
-
+</div>
 
 
 
