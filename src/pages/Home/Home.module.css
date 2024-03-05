@@ -69,7 +69,7 @@
         grid-template-columns: 1fr; /* Uma coluna em telas menores */
         margin-top: 5%;
         
-    
+        justify-content: center;
         
         justify-items: center;
         
