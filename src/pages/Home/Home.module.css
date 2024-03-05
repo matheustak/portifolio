@@ -70,3 +70,19 @@
 
                             
 
+.home {
+    grid-template-areas: "texto fotologo""fotologo  redes";
+    grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    margin-top: 5%;
+    
+
+    justify-items: center;
+  
+    
+
+}
+.texto{
+  
+    word-break: break-word; 
+    text-align: center;
+}
