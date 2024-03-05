@@ -65,14 +65,10 @@
                             
 @media (max-width: 576px) {
     .home {
-        grid-template-areas: "texto fotologo""fotologo  redes";
-        grid-template-columns: 1fr; /* Uma coluna em telas menores */
-        margin-top: 5%;
-        
-    
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
       
-        
+        justify-items: center;
    
     }
     .texto{
