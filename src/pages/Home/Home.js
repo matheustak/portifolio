@@ -17,7 +17,7 @@ const Home = () => {
     <p>
     Olá pessoas,</p>
   <h1>EU SOU UM 
-        PROGRAMADOR</h1>
+       <br /> PROGRAMADOR</h1>
         <p>seja bem-vindo ao meu portifólio website</p>
 
 
