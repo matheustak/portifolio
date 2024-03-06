@@ -15,7 +15,7 @@ const Navbar = () => {
         
         <NavLink to="/"  className={styles.brand} >
       
-       <img src={minhaImagem}alt="Logo"/>
+       <img className={styles.logomarca} src={minhaImagem}alt="Logo"/>
         <h1> Matheus <span>Rocha</span></h1>
       
         </NavLink>

@@ -1,13 +1,14 @@
 .grid{
     text-align: center;
     display:grid;
-    margin-top: 6%;
+    margin-top: 10%;
     justify-content: center;
    
      height: 100%;
      width: 100%;
-    gap: 50px;
-    grid-template-columns:repeat(auto-fill, 300px);
+    gap: 2em;
+    grid-template-columns:repeat(auto-fill, 35em);
+    grid-template-rows: auto;
     align-items: center;
     justify-items: center;
 }
