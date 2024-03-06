@@ -50,9 +50,9 @@ const Home = () => {
 
     
 
-        <WhatsAppFlutuante />
 </div>
 
+<WhatsAppFlutuante />
 </div>
 
 
