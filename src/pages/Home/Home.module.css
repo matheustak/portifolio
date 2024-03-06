@@ -67,12 +67,15 @@
        
         margin-top: 5%;
         
-        grid-template-columns: repeat(auto-fill, 10em , 1fr); /* Uma coluna em telas menores */
+        
         gap: 4em;
         justify-items: center;
          
         justify-content: center;
    
+    }
+    .fotologo{
+        max-width: 15em;
     }
     .texto, .redes{
         display: block;
@@ -80,6 +83,7 @@
         margin-right: auto;
         word-break: break-word; 
         text-align: center;
+        max-width: 15em;
     }
 
     
