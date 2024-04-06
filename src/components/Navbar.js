@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
             
             <li>
-            <NavLink to="/blog" className={({isActive}) => (isActive ? styles.active : "")}>Contato</NavLink>
+            <NavLink to="/blog" className={({isActive}) => (isActive ? styles.active : "")}>Blog</NavLink>
             </li>
           
             <li>
