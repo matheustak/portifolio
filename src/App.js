@@ -37,7 +37,7 @@ function App() {
         <div className='container'>
           <Routes>
           <Route path="/" element={<Home/> } />
-          <Route path="/Blog" element={<Sobre />} />
+          <Route path="/Blog" element={<Blog />} />
           <Route path="/Sobre" element={<Sobre />} />
           <Route path="/Portifolio" element={<Portifolio />} />
           <Route path="/Contato" element={<Contato />} />
