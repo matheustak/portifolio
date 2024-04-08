@@ -7,7 +7,7 @@ const Blog = () => {
     <div className={styles.blog}>
     
       <iframe
-        src="https://mainmatheusdevportifolio.wordpress.com/2024/04/06/salmos/" 
+        src="https://mainmatheusdevportifolio.wordpress.com/2024/04/08/criando-um-componente-flutuante-do-whatsapp-com-animacoes-em-react-usando-css-modules/" 
         title="Blog" 
         className={styles.iframe}
       
