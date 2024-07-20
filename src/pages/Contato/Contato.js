@@ -42,9 +42,9 @@ const Contato = () => {
         Endereço
         </h3>
         
-        <a href="http://maps.apple.com/?address=rua araraquaria 169 centro politico admnistrativo" className={styles.link} target="_blank" rel="noopener noreferrer">
-            Rua araraquaria 169 Centro Político Administrativo
-          </a>
+
+         Cuiabá MT
+     
             </div>
       
 
