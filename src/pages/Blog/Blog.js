@@ -159,7 +159,7 @@ const Blog = () => {
             </h2>
           </div>
         
-        <p className={styles.authorbio}>{profileData.aboutMe}
+        <p className={styles.authorbio}>{profileData?.aboutMe}
         <a className={styles.authorlink} href="https://mainmatheusdevportifolio.wordpress.com/author/matheusrochaalecrim/" 
         rel='author'> Ver todos os posts por {post.author.name}</a>
         </p>
